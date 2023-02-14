@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{b9058110-bc30-2c06-299a-bad54aa2f02e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Scripts", "Boxophobic.Utils.Scripts.csproj", "{3a2997b4-e0e7-c1f0-d54b-762b6cb8fbef}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Editor", "Boxophobic.Utils.Editor.csproj", "{fd0a9bf8-a576-1ffd-ea56-7c7e005dcc46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.SkyboxCubemapExtended.Editor", "Boxophobic.SkyboxCubemapExtended.Editor.csproj", "{36a93d61-df8d-ff87-39e7-b326aa948a70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{b9058110-bc30-2c06-299a-bad54aa2f02e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b9058110-bc30-2c06-299a-bad54aa2f02e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3a2997b4-e0e7-c1f0-d54b-762b6cb8fbef}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3a2997b4-e0e7-c1f0-d54b-762b6cb8fbef}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{fd0a9bf8-a576-1ffd-ea56-7c7e005dcc46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{fd0a9bf8-a576-1ffd-ea56-7c7e005dcc46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36a93d61-df8d-ff87-39e7-b326aa948a70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36a93d61-df8d-ff87-39e7-b326aa948a70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

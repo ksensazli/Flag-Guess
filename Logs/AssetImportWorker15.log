@@ -1,0 +1,730 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/kagan/Flaguess
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+62796
+Successfully changed project path to: C:/Users/kagan/Flaguess
+C:/Users/kagan/Flaguess
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4388] Host "[IP] 192.168.0.27 [Port] 0 [Flags] 2 [Guid] 2269761485 [EditorId] 2269761485 [Version] 1048832 [Id] WindowsEditor(7,Kagan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4388] Host "[IP] 192.168.0.27 [Port] 0 [Flags] 2 [Guid] 2269761485 [EditorId] 2269761485 [Version] 1048832 [Id] WindowsEditor(7,Kagan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 101.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kagan/Flaguess/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.006563 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 324 ms
+Refreshing native plugins compatible for Editor in 96.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (631ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (393ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008404 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 93.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1158ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (921ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (229.2 KB). Loaded Objects now: 4315.
+Memory consumption went from 148.2 MB to 147.9 MB.
+Total: 3.952200 ms (FindLiveObjects: 0.315100 ms CreateObjectMapping: 0.224200 ms MarkObjects: 3.252400 ms  DeleteObjects: 0.159300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24628.760720 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/1button_green_middle.png
+  artifactKey: Guid(233e23c919e7ad548a3ffa20d2c1d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/1button_green_middle.png using Guid(233e23c919e7ad548a3ffa20d2c1d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.188249 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/1button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:37Z' while content on disk has modification time of '2023-02-14T22:37:55.4355745Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/1button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:37Z' while content on disk has modification time of '2023-02-14T22:37:55.4355745Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/17bttn-little.png
+  artifactKey: Guid(458a99bacc6c65340806334f4d449fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/17bttn-little.png using Guid(458a99bacc6c65340806334f4d449fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017415 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/17bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.415577Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/17bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.415577Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/8Button_Midl_Red.png
+  artifactKey: Guid(36fe1d766c5df3343b1eb1b5d524afbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/8Button_Midl_Red.png using Guid(36fe1d766c5df3343b1eb1b5d524afbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024620 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/8button_midl_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.4415698Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/8button_midl_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.4415698Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/26Button_Long_Blue.png
+  artifactKey: Guid(b9f146537c9d53e449ad8f389525ffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/26Button_Long_Blue.png using Guid(b9f146537c9d53e449ad8f389525ffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024883 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/26button_long_blue.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:46Z' while content on disk has modification time of '2023-02-14T22:37:55.4165804Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/26button_long_blue.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:46Z' while content on disk has modification time of '2023-02-14T22:37:55.4165804Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/19bttn-midl.png
+  artifactKey: Guid(aa3bf53c498deb44b80ad60af801942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/19bttn-midl.png using Guid(aa3bf53c498deb44b80ad60af801942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020106 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/19bttn-midl.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:45Z' while content on disk has modification time of '2023-02-14T22:37:55.4295765Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/19bttn-midl.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:45Z' while content on disk has modification time of '2023-02-14T22:37:55.4295765Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/6button_green_middle.png
+  artifactKey: Guid(a16c91ca6a9a60b4596b57635c8a3e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/6button_green_middle.png using Guid(a16c91ca6a9a60b4596b57635c8a3e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026706 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/6button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:44Z' while content on disk has modification time of '2023-02-14T22:37:55.4325892Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/6button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:44Z' while content on disk has modification time of '2023-02-14T22:37:55.4325892Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/18bttn-little.png
+  artifactKey: Guid(7e73e4be78a578649bd6c28e037ef6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/18bttn-little.png using Guid(7e73e4be78a578649bd6c28e037ef6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012690 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/18bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:42Z' while content on disk has modification time of '2023-02-14T22:37:55.4345736Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/18bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:42Z' while content on disk has modification time of '2023-02-14T22:37:55.4345736Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/4button_green_middle.png
+  artifactKey: Guid(fafb57e9cc0c62245a6bd4d42a895309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/4button_green_middle.png using Guid(fafb57e9cc0c62245a6bd4d42a895309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.029815 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/4button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:48Z' while content on disk has modification time of '2023-02-14T22:37:55.4475907Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/4button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:48Z' while content on disk has modification time of '2023-02-14T22:37:55.4475907Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/22Button_Midl_Green.png
+  artifactKey: Guid(bf625ae84f769384fb0cd1cc52d14971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/22Button_Midl_Green.png using Guid(bf625ae84f769384fb0cd1cc52d14971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016224 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/22button_midl_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:46Z' while content on disk has modification time of '2023-02-14T22:37:55.4435688Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/22button_midl_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:46Z' while content on disk has modification time of '2023-02-14T22:37:55.4435688Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/28button_green.png
+  artifactKey: Guid(131de190cb93c60499d0da6a2b7c592d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/28button_green.png using Guid(131de190cb93c60499d0da6a2b7c592d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017325 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/28button_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:36Z' while content on disk has modification time of '2023-02-14T22:37:55.4245738Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/28button_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:36Z' while content on disk has modification time of '2023-02-14T22:37:55.4245738Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/16bttn-little.png
+  artifactKey: Guid(e14856af1ef6fc9449b0c62fc9e5ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/16bttn-little.png using Guid(e14856af1ef6fc9449b0c62fc9e5ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012887 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/16bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.414576Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/16bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.414576Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/11Button_Midl_Blue.png
+  artifactKey: Guid(779b95c4bc6a9534299af022ce6c4d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/11Button_Midl_Blue.png using Guid(779b95c4bc6a9534299af022ce6c4d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019876 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/11button_midl_blue.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:41Z' while content on disk has modification time of '2023-02-14T22:37:55.4275758Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/11button_midl_blue.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:41Z' while content on disk has modification time of '2023-02-14T22:37:55.4275758Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/23Button_Midl_Red.png
+  artifactKey: Guid(cb1fee516d444164abc17d4b2050d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/23Button_Midl_Red.png using Guid(cb1fee516d444164abc17d4b2050d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017827 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/23button_midl_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:46Z' while content on disk has modification time of '2023-02-14T22:37:55.4125736Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/23button_midl_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:46Z' while content on disk has modification time of '2023-02-14T22:37:55.4125736Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/9Button_Midl_Green.png
+  artifactKey: Guid(70ce67e982fddb74289530c17f57aac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/9Button_Midl_Green.png using Guid(70ce67e982fddb74289530c17f57aac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016154 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/9button_midl_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.440569Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/9button_midl_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.440569Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/14Button_Long_Red.png
+  artifactKey: Guid(5e73cb0b2d2843f479811a41ea243999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/14Button_Long_Red.png using Guid(5e73cb0b2d2843f479811a41ea243999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019518 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/14button_long_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.449576Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/14button_long_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.449576Z'
+========================================================================
+Received Import Request.
+  Time since last request: 18.495803 seconds.
+  path: Assets/_3rdParty/Buttons/buttons.psd
+  artifactKey: Guid(feb7f06d7faf71543b5d62cfec54ed7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/buttons.psd using Guid(feb7f06d7faf71543b5d62cfec54ed7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.279194 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/buttons.psd.meta in SourceAssetDB has modification time of '2022-02-03T12:15:50Z' while content on disk has modification time of '2023-02-14T22:37:55.431575Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/buttons.psd.meta in SourceAssetDB has modification time of '2022-02-03T12:15:50Z' while content on disk has modification time of '2023-02-14T22:37:55.431575Z'
+========================================================================
+Received Import Request.
+  Time since last request: 48.840083 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/1button_green_middle.png
+  artifactKey: Guid(233e23c919e7ad548a3ffa20d2c1d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/1button_green_middle.png using Guid(233e23c919e7ad548a3ffa20d2c1d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.036088 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/1button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:37Z' while content on disk has modification time of '2023-02-14T22:37:55.4355745Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/1button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:37Z' while content on disk has modification time of '2023-02-14T22:37:55.4355745Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/17bttn-little.png
+  artifactKey: Guid(458a99bacc6c65340806334f4d449fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/17bttn-little.png using Guid(458a99bacc6c65340806334f4d449fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021928 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/17bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.415577Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/17bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.415577Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/5button_blue_middle.png
+  artifactKey: Guid(dad1da2ca9b01964288f231323af48ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/5button_blue_middle.png using Guid(dad1da2ca9b01964288f231323af48ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.035124 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/5button_blue_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.4185751Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/5button_blue_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.4185751Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/19bttn-midl.png
+  artifactKey: Guid(aa3bf53c498deb44b80ad60af801942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/19bttn-midl.png using Guid(aa3bf53c498deb44b80ad60af801942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023819 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/19bttn-midl.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:45Z' while content on disk has modification time of '2023-02-14T22:37:55.4295765Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/19bttn-midl.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:45Z' while content on disk has modification time of '2023-02-14T22:37:55.4295765Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/18bttn-little.png
+  artifactKey: Guid(7e73e4be78a578649bd6c28e037ef6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/18bttn-little.png using Guid(7e73e4be78a578649bd6c28e037ef6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018131 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/18bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:42Z' while content on disk has modification time of '2023-02-14T22:37:55.4345736Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/18bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:42Z' while content on disk has modification time of '2023-02-14T22:37:55.4345736Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/4button_green_middle.png
+  artifactKey: Guid(fafb57e9cc0c62245a6bd4d42a895309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/4button_green_middle.png using Guid(fafb57e9cc0c62245a6bd4d42a895309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022086 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/4button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:48Z' while content on disk has modification time of '2023-02-14T22:37:55.4475907Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/4button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:48Z' while content on disk has modification time of '2023-02-14T22:37:55.4475907Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/15Button_Long_Yellow.png
+  artifactKey: Guid(89bbc17355dc0064aae767e8f31a93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/15Button_Long_Yellow.png using Guid(89bbc17355dc0064aae767e8f31a93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014983 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/15button_long_yellow.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:42Z' while content on disk has modification time of '2023-02-14T22:37:55.4175742Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/15button_long_yellow.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:42Z' while content on disk has modification time of '2023-02-14T22:37:55.4175742Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/16bttn-little.png
+  artifactKey: Guid(e14856af1ef6fc9449b0c62fc9e5ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/16bttn-little.png using Guid(e14856af1ef6fc9449b0c62fc9e5ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013473 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/16bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.414576Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/16bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.414576Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/12Button_Long_Blue.png
+  artifactKey: Guid(4e75355f0aa718a498d932c89b2b994c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/12Button_Long_Blue.png using Guid(4e75355f0aa718a498d932c89b2b994c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015693 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/12button_long_blue.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.426577Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/12button_long_blue.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.426577Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/9Button_Midl_Green.png
+  artifactKey: Guid(70ce67e982fddb74289530c17f57aac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/9Button_Midl_Green.png using Guid(70ce67e982fddb74289530c17f57aac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012978 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/9button_midl_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.440569Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/9button_midl_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.440569Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/14Button_Long_Red.png
+  artifactKey: Guid(5e73cb0b2d2843f479811a41ea243999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/14Button_Long_Red.png using Guid(5e73cb0b2d2843f479811a41ea243999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017569 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/14button_long_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.449576Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/14button_long_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.449576Z'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008674 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.717 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1718ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1377ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (448ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (573ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3834 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (196.1 KB). Loaded Objects now: 4359.
+Memory consumption went from 150.5 MB to 150.3 MB.
+Total: 6.914000 ms (FindLiveObjects: 0.391600 ms CreateObjectMapping: 0.307500 ms MarkObjects: 5.803800 ms  DeleteObjects: 0.409400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.446967 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/10Button_Midl_Yellow.png
+  artifactKey: Guid(d7b4d635d5ebc2a4c967aed03f5c932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/10Button_Midl_Yellow.png using Guid(d7b4d635d5ebc2a4c967aed03f5c932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.094579 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/10button_midl_yellow.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.4485777Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/10button_midl_yellow.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.4485777Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/26Button_Long_Blue.png
+  artifactKey: Guid(b9f146537c9d53e449ad8f389525ffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/26Button_Long_Blue.png using Guid(b9f146537c9d53e449ad8f389525ffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020109 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/26button_long_blue.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:46Z' while content on disk has modification time of '2023-02-14T22:37:55.4165804Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/26button_long_blue.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:46Z' while content on disk has modification time of '2023-02-14T22:37:55.4165804Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/19bttn-midl.png
+  artifactKey: Guid(aa3bf53c498deb44b80ad60af801942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/19bttn-midl.png using Guid(aa3bf53c498deb44b80ad60af801942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017378 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/19bttn-midl.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:45Z' while content on disk has modification time of '2023-02-14T22:37:55.4295765Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/19bttn-midl.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:45Z' while content on disk has modification time of '2023-02-14T22:37:55.4295765Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/3button_green_middle.png
+  artifactKey: Guid(a73ec2992ca135e48987416ecdcdc2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/3button_green_middle.png using Guid(a73ec2992ca135e48987416ecdcdc2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017399 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/3button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:44Z' while content on disk has modification time of '2023-02-14T22:37:55.4365686Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/3button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:44Z' while content on disk has modification time of '2023-02-14T22:37:55.4365686Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/7button_green_middle.png
+  artifactKey: Guid(b8ede16274078e4479b1a6b2d1e5ea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/7button_green_middle.png using Guid(b8ede16274078e4479b1a6b2d1e5ea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020319 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/7button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:45Z' while content on disk has modification time of '2023-02-14T22:37:55.4225748Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/7button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:45Z' while content on disk has modification time of '2023-02-14T22:37:55.4225748Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/15Button_Long_Yellow.png
+  artifactKey: Guid(89bbc17355dc0064aae767e8f31a93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/15Button_Long_Yellow.png using Guid(89bbc17355dc0064aae767e8f31a93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016078 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/15button_long_yellow.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:42Z' while content on disk has modification time of '2023-02-14T22:37:55.4175742Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/15button_long_yellow.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:42Z' while content on disk has modification time of '2023-02-14T22:37:55.4175742Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/28button_green.png
+  artifactKey: Guid(131de190cb93c60499d0da6a2b7c592d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/28button_green.png using Guid(131de190cb93c60499d0da6a2b7c592d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012814 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/28button_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:36Z' while content on disk has modification time of '2023-02-14T22:37:55.4245738Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/28button_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:36Z' while content on disk has modification time of '2023-02-14T22:37:55.4245738Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/13Button_Long_Green.png
+  artifactKey: Guid(0d80a796f0489b846a1e62dff146281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/13Button_Long_Green.png using Guid(0d80a796f0489b846a1e62dff146281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016539 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/13button_long_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:36Z' while content on disk has modification time of '2023-02-14T22:37:55.4305784Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/13button_long_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:36Z' while content on disk has modification time of '2023-02-14T22:37:55.4305784Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/23Button_Midl_Red.png
+  artifactKey: Guid(cb1fee516d444164abc17d4b2050d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/23Button_Midl_Red.png using Guid(cb1fee516d444164abc17d4b2050d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015686 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/23button_midl_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:46Z' while content on disk has modification time of '2023-02-14T22:37:55.4125736Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/23button_midl_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:46Z' while content on disk has modification time of '2023-02-14T22:37:55.4125736Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/27Button_Long_Red.png
+  artifactKey: Guid(184fc020424fe944584c02013872e731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/27Button_Long_Red.png using Guid(184fc020424fe944584c02013872e731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018080 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/27button_long_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:37Z' while content on disk has modification time of '2023-02-14T22:37:55.438585Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/27button_long_red.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:37Z' while content on disk has modification time of '2023-02-14T22:37:55.438585Z'
+========================================================================
+Received Import Request.
+  Time since last request: 32.619056 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/1button_green_middle.png
+  artifactKey: Guid(233e23c919e7ad548a3ffa20d2c1d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/1button_green_middle.png using Guid(233e23c919e7ad548a3ffa20d2c1d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016211 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/1button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:37Z' while content on disk has modification time of '2023-02-14T22:37:55.4355745Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/1button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:37Z' while content on disk has modification time of '2023-02-14T22:37:55.4355745Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/17bttn-little.png
+  artifactKey: Guid(458a99bacc6c65340806334f4d449fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/17bttn-little.png using Guid(458a99bacc6c65340806334f4d449fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015693 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/17bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.415577Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/17bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.415577Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/5button_blue_middle.png
+  artifactKey: Guid(dad1da2ca9b01964288f231323af48ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/5button_blue_middle.png using Guid(dad1da2ca9b01964288f231323af48ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020011 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/5button_blue_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.4185751Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/5button_blue_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.4185751Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/6button_green_middle.png
+  artifactKey: Guid(a16c91ca6a9a60b4596b57635c8a3e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/6button_green_middle.png using Guid(a16c91ca6a9a60b4596b57635c8a3e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.028019 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/6button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:44Z' while content on disk has modification time of '2023-02-14T22:37:55.4325892Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/6button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:44Z' while content on disk has modification time of '2023-02-14T22:37:55.4325892Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/4button_green_middle.png
+  artifactKey: Guid(fafb57e9cc0c62245a6bd4d42a895309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/4button_green_middle.png using Guid(fafb57e9cc0c62245a6bd4d42a895309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018191 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/4button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:48Z' while content on disk has modification time of '2023-02-14T22:37:55.4475907Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/4button_green_middle.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:48Z' while content on disk has modification time of '2023-02-14T22:37:55.4475907Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/15Button_Long_Yellow.png
+  artifactKey: Guid(89bbc17355dc0064aae767e8f31a93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/15Button_Long_Yellow.png using Guid(89bbc17355dc0064aae767e8f31a93aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018317 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/15button_long_yellow.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:42Z' while content on disk has modification time of '2023-02-14T22:37:55.4175742Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/15button_long_yellow.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:42Z' while content on disk has modification time of '2023-02-14T22:37:55.4175742Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/16bttn-little.png
+  artifactKey: Guid(e14856af1ef6fc9449b0c62fc9e5ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/16bttn-little.png using Guid(e14856af1ef6fc9449b0c62fc9e5ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017414 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/16bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.414576Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/16bttn-little.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:47Z' while content on disk has modification time of '2023-02-14T22:37:55.414576Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/12Button_Long_Blue.png
+  artifactKey: Guid(4e75355f0aa718a498d932c89b2b994c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/12Button_Long_Blue.png using Guid(4e75355f0aa718a498d932c89b2b994c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018506 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/12button_long_blue.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.426577Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/12button_long_blue.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:39Z' while content on disk has modification time of '2023-02-14T22:37:55.426577Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/9Button_Midl_Green.png
+  artifactKey: Guid(70ce67e982fddb74289530c17f57aac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/9Button_Midl_Green.png using Guid(70ce67e982fddb74289530c17f57aac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018067 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/9button_midl_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.440569Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/9button_midl_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.440569Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/25Button_Long_Green.png
+  artifactKey: Guid(75b6e4700f21ab04198e8b1f956968a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/25Button_Long_Green.png using Guid(75b6e4700f21ab04198e8b1f956968a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015164 seconds  code(4) message(Build asset version error: assets/_3rdparty/buttons/png/25button_long_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.4445684Z')
+  ERROR: Build asset version error: assets/_3rdparty/buttons/png/25button_long_green.png.meta in SourceAssetDB has modification time of '2022-02-03T12:15:40Z' while content on disk has modification time of '2023-02-14T22:37:55.4445684Z'
+========================================================================
+Received Import Request.
+  Time since last request: 21.314688 seconds.
+  path: Assets/Scenes/licensePlate.unity
+  artifactKey: Guid(d6a1128ad2b7992428142cc05a62f767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/licensePlate.unity using Guid(d6a1128ad2b7992428142cc05a62f767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771c4868dd1bf927aa2c997a4fc51f4b') in 0.006955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.910950 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e49704d17e08d4f71543c30ef6d6ee5') in 0.007735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.101225 seconds.
+  path: Assets/Scripts/sceneLoader.cs
+  artifactKey: Guid(27561012d9aace44fafdca28845ae084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/sceneLoader.cs using Guid(27561012d9aace44fafdca28845ae084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3929641126f52d6f8897ff279515859') in 0.019266 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009334 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (843ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (196.1 KB). Loaded Objects now: 4366.
+Memory consumption went from 150.6 MB to 150.4 MB.
+Total: 4.263900 ms (FindLiveObjects: 0.290700 ms CreateObjectMapping: 0.211600 ms MarkObjects: 3.573900 ms  DeleteObjects: 0.186300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.114760 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/1button_green_middle.png
+  artifactKey: Guid(233e23c919e7ad548a3ffa20d2c1d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/1button_green_middle.png using Guid(233e23c919e7ad548a3ffa20d2c1d7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dec0acc0c439613abec9cec9461f95') in 0.116018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/8Button_Midl_Red.png
+  artifactKey: Guid(36fe1d766c5df3343b1eb1b5d524afbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/8Button_Midl_Red.png using Guid(36fe1d766c5df3343b1eb1b5d524afbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f3cb182596bb98f6b3c42d86ca5333') in 0.019357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/6button_green_middle.png
+  artifactKey: Guid(a16c91ca6a9a60b4596b57635c8a3e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/6button_green_middle.png using Guid(a16c91ca6a9a60b4596b57635c8a3e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28364c2ca18cd153cce3fb63ac897ea') in 0.031115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/3button_green_middle.png
+  artifactKey: Guid(a73ec2992ca135e48987416ecdcdc2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/3button_green_middle.png using Guid(a73ec2992ca135e48987416ecdcdc2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1cbdbcf25fc426bc8a9bc24686b8a6') in 0.028774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_3rdParty/Buttons/PNG/4button_green_middle.png
+  artifactKey: Guid(fafb57e9cc0c62245a6bd4d42a895309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_3rdParty/Buttons/PNG/4button_green_middle.png using Guid(fafb57e9cc0c62245a6bd4d42a895309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e8c36fd415cf33ace736fb1c0a05e7') in 0.026851 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012626 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.421 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1422ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1083ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (422ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (195.9 KB). Loaded Objects now: 4369.
+Memory consumption went from 150.6 MB to 150.4 MB.
+Total: 5.314000 ms (FindLiveObjects: 0.306400 ms CreateObjectMapping: 0.238400 ms MarkObjects: 4.534500 ms  DeleteObjects: 0.233300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
