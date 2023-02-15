@@ -5,7 +5,7 @@ public class sceneLoader : MonoBehaviour
 {
     public void setLicensePlate()
     {
-        SceneManager.LoadScene("licensePlate", LoadSceneMode.Single);
+        SceneManager.LoadScene("LicensePlate", LoadSceneMode.Single);
     }
 
     public void setFlagEU_ez()

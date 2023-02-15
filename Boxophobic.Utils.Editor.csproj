@@ -36,51 +36,47 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\kagan\Flaguess\Assets\_3rdParty\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
-    <Analyzer Include="C:\Users\kagan\Flaguess\Assets\_3rdParty\Plugins\Demigiant\DOTween\DOTween.dll" />
-  </ItemGroup>
-  <ItemGroup>
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledGUI\DrawWindowCategory.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledBannerDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledMaskDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\SettingsUtils\SaveSettingsData.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledMaskDrawer.cs" />
      <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledMessageDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledCategoryDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledTextDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledMessageDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledVectorDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMono\StyledScriptableObjectEditor.cs" />
      <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledTexturePreviewDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledEmissiveIntensityDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledGUI\DrawInspectorCategory.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledBannerDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledTextureDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledGUI\DrawInspectorBanner.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledButtonDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledGUI\DrawWindowBanner.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledOptionsSliderDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMono\StyledMonoBehaviourEditor.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledIndentDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\Constants\Constants.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledSpaceDrawer.cs" />
      <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledInteractiveDrawer.cs" />
      <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledIndentDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledButtonDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledCategoryDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledInteractiveDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledDiffusionMaterialDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledToggleDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledEnumDrawer.cs" />
      <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledEnumDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\SettingsUtils\LoadSettingsData.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledSpaceDrawer.cs" />
      <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledLayersDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledRangeOptionsDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledRemapSliderDrawer.cs" />
-     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledLayersDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledGUI\DrawInspectorCategory.cs" />
      <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledTextureSingleLineDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledButtonDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\Constants\Constants.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledDiffusionMaterialDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledEmissiveIntensityDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledSpaceDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledCategoryDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledEnumDrawer.cs" />
      <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledTextDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledCategoryDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledBannerDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledTextDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\SettingsUtils\LoadSettingsData.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledMessageDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledBannerDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledInteractiveDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledMaskDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledToggleDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledVectorDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledIndentDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledTextureDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledGUI\DrawInspectorBanner.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\SettingsUtils\SaveSettingsData.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledGUI\DrawWindowBanner.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledSpaceDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledLayersDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMono\StyledMonoBehaviourEditor.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMono\StyledScriptableObjectEditor.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledMaskDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledGUI\DrawWindowCategory.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledButtonDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledInspector\StyledRangeOptionsDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledOptionsSliderDrawer.cs" />
+     <Compile Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\StyledMaterial\StyledRemapSliderDrawer.cs" />
      <None Include="Assets\_3rdParty\BOXOPHOBIC\Utils\Editor\Boxophobic.Utils.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -352,6 +348,9 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
         <HintPath>C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenEditor">
+        <HintPath>C:\Users\kagan\Flaguess\Assets\_3rdParty\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
         <HintPath>C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
@@ -376,17 +375,14 @@
     <Reference Include="log4netPlastic">
         <HintPath>C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-        <HintPath>C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    <Reference Include="DOTween">
+        <HintPath>C:\Users\kagan\Flaguess\Assets\_3rdParty\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="DOTweenEditor">
-        <HintPath>C:\Users\kagan\Flaguess\Assets\_3rdParty\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-        <HintPath>C:\Users\kagan\Flaguess\Assets\_3rdParty\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+        <HintPath>C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>C:\Users\kagan\Flaguess\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
