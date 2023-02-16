@@ -7,8 +7,9 @@ using UnityEngine.UI;
 public class mapController : MonoBehaviour
 {
     [SerializeField] private List<Button> _cities;
-    [SerializeField] private Button _restartBtn;
-    [SerializeField] private Button _mainMenuBtn;
+    [SerializeField] private GameObject _restartBtn;
+    [SerializeField] private GameObject _mainMenuBtn;
+    [SerializeField] private GameObject _blackoutEffect;
     [SerializeField] private TMPro.TMP_Text _targetCity;
     [SerializeField] private TMPro.TMP_Text _clickedText;
     [SerializeField] private TMPro.TMP_Text _plateName;
@@ -36,8 +37,10 @@ public class mapController : MonoBehaviour
             _targetCity.fontSize = 36;
             _targetCity.text = "Level Completed!";
             _plateName.enabled = false;
-            _restartBtn.enabled = true;
-            _mainMenuBtn.enabled = true;
+            _restartBtn.SetActive(true);
+            _mainMenuBtn.SetActive(true);
+            _blackoutEffect.SetActive(true);
+            _clickedText.enabled = false;
             return;
         }
         _targetCityIndex = _remainingCities[UnityEngine.Random.Range(0, _remainingCities.Count)];
