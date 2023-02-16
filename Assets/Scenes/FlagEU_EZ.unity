@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 15770187}
   - component: {fileID: 15770186}
   - component: {fileID: 15770188}
-  - component: {fileID: 15770189}
   m_Layer: 5
   m_Name: Latvia
   m_TagString: Untagged
@@ -245,18 +244,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &15770189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15770184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &20502435
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,7 +256,6 @@ GameObject:
   - component: {fileID: 20502438}
   - component: {fileID: 20502437}
   - component: {fileID: 20502439}
-  - component: {fileID: 20502440}
   m_Layer: 5
   m_Name: Vatican
   m_TagString: Untagged
@@ -379,18 +365,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &20502440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 20502435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &120069137
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +377,6 @@ GameObject:
   - component: {fileID: 120069140}
   - component: {fileID: 120069139}
   - component: {fileID: 120069141}
-  - component: {fileID: 120069142}
   m_Layer: 5
   m_Name: Croatia
   m_TagString: Untagged
@@ -513,18 +486,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &120069142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120069137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &168995051
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,7 +498,6 @@ GameObject:
   - component: {fileID: 168995054}
   - component: {fileID: 168995053}
   - component: {fileID: 168995055}
-  - component: {fileID: 168995056}
   m_Layer: 5
   m_Name: Belarus
   m_TagString: Untagged
@@ -647,18 +607,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &168995056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 168995051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &192216524
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,7 +619,6 @@ GameObject:
   - component: {fileID: 192216527}
   - component: {fileID: 192216526}
   - component: {fileID: 192216528}
-  - component: {fileID: 192216529}
   m_Layer: 5
   m_Name: Hungary
   m_TagString: Untagged
@@ -781,18 +728,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &192216529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192216524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &204865548
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,7 +740,6 @@ GameObject:
   - component: {fileID: 204865551}
   - component: {fileID: 204865550}
   - component: {fileID: 204865552}
-  - component: {fileID: 204865553}
   m_Layer: 5
   m_Name: Greece
   m_TagString: Untagged
@@ -915,18 +849,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &204865553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 204865548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &226552886
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,7 +861,6 @@ GameObject:
   - component: {fileID: 226552889}
   - component: {fileID: 226552888}
   - component: {fileID: 226552890}
-  - component: {fileID: 226552891}
   m_Layer: 5
   m_Name: Norway
   m_TagString: Untagged
@@ -1049,18 +970,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &226552891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 226552886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &255831781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,7 +982,6 @@ GameObject:
   - component: {fileID: 255831784}
   - component: {fileID: 255831783}
   - component: {fileID: 255831785}
-  - component: {fileID: 255831786}
   m_Layer: 5
   m_Name: Poland
   m_TagString: Untagged
@@ -1183,18 +1091,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &255831786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 255831781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &357794942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,7 +1103,6 @@ GameObject:
   - component: {fileID: 357794945}
   - component: {fileID: 357794944}
   - component: {fileID: 357794946}
-  - component: {fileID: 357794947}
   m_Layer: 5
   m_Name: Lithuania
   m_TagString: Untagged
@@ -1317,18 +1212,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &357794947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357794942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &364389237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,7 +1441,6 @@ GameObject:
   - component: {fileID: 468303820}
   - component: {fileID: 468303819}
   - component: {fileID: 468303821}
-  - component: {fileID: 468303822}
   m_Layer: 5
   m_Name: Portugal
   m_TagString: Untagged
@@ -1668,18 +1550,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &468303822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 468303817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &497007054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1692,7 +1562,6 @@ GameObject:
   - component: {fileID: 497007057}
   - component: {fileID: 497007056}
   - component: {fileID: 497007058}
-  - component: {fileID: 497007059}
   m_Layer: 5
   m_Name: Switzerland
   m_TagString: Untagged
@@ -1802,18 +1671,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &497007059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 497007054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &526897081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,7 +1683,6 @@ GameObject:
   - component: {fileID: 526897084}
   - component: {fileID: 526897083}
   - component: {fileID: 526897085}
-  - component: {fileID: 526897086}
   m_Layer: 5
   m_Name: Slovakia
   m_TagString: Untagged
@@ -1936,18 +1792,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &526897086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526897081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &528116111
 GameObject:
   m_ObjectHideFlags: 0
@@ -2028,7 +1872,6 @@ GameObject:
   - component: {fileID: 579806568}
   - component: {fileID: 579806567}
   - component: {fileID: 579806569}
-  - component: {fileID: 579806570}
   m_Layer: 5
   m_Name: Netherlands
   m_TagString: Untagged
@@ -2138,18 +1981,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &579806570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579806565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &600242864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2162,7 +1993,6 @@ GameObject:
   - component: {fileID: 600242867}
   - component: {fileID: 600242866}
   - component: {fileID: 600242868}
-  - component: {fileID: 600242869}
   m_Layer: 5
   m_Name: Montenegro
   m_TagString: Untagged
@@ -2272,18 +2102,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &600242869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600242864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &626229553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,7 +2114,6 @@ GameObject:
   - component: {fileID: 626229556}
   - component: {fileID: 626229555}
   - component: {fileID: 626229557}
-  - component: {fileID: 626229558}
   m_Layer: 5
   m_Name: Estonia
   m_TagString: Untagged
@@ -2406,18 +2223,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &626229558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626229553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &639867952
 GameObject:
   m_ObjectHideFlags: 0
@@ -2430,7 +2235,6 @@ GameObject:
   - component: {fileID: 639867955}
   - component: {fileID: 639867954}
   - component: {fileID: 639867956}
-  - component: {fileID: 639867957}
   m_Layer: 5
   m_Name: Slovenia
   m_TagString: Untagged
@@ -2540,18 +2344,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &639867957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 639867952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &676736478
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,7 +2356,6 @@ GameObject:
   - component: {fileID: 676736481}
   - component: {fileID: 676736480}
   - component: {fileID: 676736482}
-  - component: {fileID: 676736483}
   m_Layer: 5
   m_Name: Turkey
   m_TagString: Untagged
@@ -2674,18 +2465,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &676736483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676736478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &695549019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,7 +2477,6 @@ GameObject:
   - component: {fileID: 695549022}
   - component: {fileID: 695549021}
   - component: {fileID: 695549023}
-  - component: {fileID: 695549024}
   m_Layer: 5
   m_Name: Bosnia and Herzegovina
   m_TagString: Untagged
@@ -2808,18 +2586,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &695549024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695549019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &719513207
 GameObject:
   m_ObjectHideFlags: 0
@@ -2832,7 +2598,6 @@ GameObject:
   - component: {fileID: 719513210}
   - component: {fileID: 719513209}
   - component: {fileID: 719513211}
-  - component: {fileID: 719513212}
   m_Layer: 5
   m_Name: Bulgaria
   m_TagString: Untagged
@@ -2942,18 +2707,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &719513212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 719513207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &726599794
 GameObject:
   m_ObjectHideFlags: 0
@@ -2966,6 +2719,7 @@ GameObject:
   - component: {fileID: 726599797}
   - component: {fileID: 726599796}
   - component: {fileID: 726599795}
+  - component: {fileID: 726599799}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3057,6 +2811,67 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &726599799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726599794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205ab4ecc68890c4e9646cb8a0c15029, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _flags:
+  - {fileID: 2005069925}
+  - {fileID: 938034132}
+  - {fileID: 931018372}
+  - {fileID: 168995055}
+  - {fileID: 1293811153}
+  - {fileID: 695549023}
+  - {fileID: 719513211}
+  - {fileID: 120069141}
+  - {fileID: 1045125348}
+  - {fileID: 1804403503}
+  - {fileID: 1980464530}
+  - {fileID: 626229557}
+  - {fileID: 821870083}
+  - {fileID: 1729385178}
+  - {fileID: 1550375805}
+  - {fileID: 204865552}
+  - {fileID: 192216528}
+  - {fileID: 1421114966}
+  - {fileID: 1588715914}
+  - {fileID: 1953943896}
+  - {fileID: 1788957716}
+  - {fileID: 15770188}
+  - {fileID: 763767862}
+  - {fileID: 357794946}
+  - {fileID: 1266322891}
+  - {fileID: 1639746817}
+  - {fileID: 1248487945}
+  - {fileID: 1105815963}
+  - {fileID: 600242868}
+  - {fileID: 579806569}
+  - {fileID: 226552890}
+  - {fileID: 255831785}
+  - {fileID: 468303821}
+  - {fileID: 1312950800}
+  - {fileID: 1527467183}
+  - {fileID: 1896664693}
+  - {fileID: 1576044864}
+  - {fileID: 526897085}
+  - {fileID: 639867956}
+  - {fileID: 751207669}
+  - {fileID: 1656747726}
+  - {fileID: 497007058}
+  - {fileID: 676736482}
+  - {fileID: 1192120475}
+  - {fileID: 1190799808}
+  - {fileID: 20502439}
+  _targetFlag: {fileID: 424696082}
+  _targetFlagIndex: 0
 --- !u!1 &751207665
 GameObject:
   m_ObjectHideFlags: 0
@@ -3069,7 +2884,6 @@ GameObject:
   - component: {fileID: 751207668}
   - component: {fileID: 751207667}
   - component: {fileID: 751207669}
-  - component: {fileID: 751207670}
   m_Layer: 5
   m_Name: Spain
   m_TagString: Untagged
@@ -3179,18 +2993,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &751207670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 751207665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &763767858
 GameObject:
   m_ObjectHideFlags: 0
@@ -3203,7 +3005,6 @@ GameObject:
   - component: {fileID: 763767861}
   - component: {fileID: 763767860}
   - component: {fileID: 763767862}
-  - component: {fileID: 763767863}
   m_Layer: 5
   m_Name: Lichtenstein
   m_TagString: Untagged
@@ -3313,18 +3114,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &763767863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 763767858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &821870079
 GameObject:
   m_ObjectHideFlags: 0
@@ -3337,7 +3126,6 @@ GameObject:
   - component: {fileID: 821870082}
   - component: {fileID: 821870081}
   - component: {fileID: 821870083}
-  - component: {fileID: 821870084}
   m_Layer: 5
   m_Name: Finland
   m_TagString: Untagged
@@ -3447,18 +3235,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &821870084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821870079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &931018368
 GameObject:
   m_ObjectHideFlags: 0
@@ -3471,7 +3247,6 @@ GameObject:
   - component: {fileID: 931018371}
   - component: {fileID: 931018370}
   - component: {fileID: 931018372}
-  - component: {fileID: 931018373}
   m_Layer: 5
   m_Name: Austria
   m_TagString: Untagged
@@ -3581,18 +3356,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &931018373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931018368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &938034128
 GameObject:
   m_ObjectHideFlags: 0
@@ -3605,7 +3368,6 @@ GameObject:
   - component: {fileID: 938034131}
   - component: {fileID: 938034130}
   - component: {fileID: 938034132}
-  - component: {fileID: 938034133}
   m_Layer: 5
   m_Name: Andorra
   m_TagString: Untagged
@@ -3715,18 +3477,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &938034133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938034128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1045125344
 GameObject:
   m_ObjectHideFlags: 0
@@ -3739,7 +3489,6 @@ GameObject:
   - component: {fileID: 1045125347}
   - component: {fileID: 1045125346}
   - component: {fileID: 1045125348}
-  - component: {fileID: 1045125349}
   m_Layer: 5
   m_Name: Cyprus
   m_TagString: Untagged
@@ -3849,18 +3598,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1045125349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1045125344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1105815959
 GameObject:
   m_ObjectHideFlags: 0
@@ -3873,7 +3610,6 @@ GameObject:
   - component: {fileID: 1105815962}
   - component: {fileID: 1105815961}
   - component: {fileID: 1105815963}
-  - component: {fileID: 1105815964}
   m_Layer: 5
   m_Name: Monaco
   m_TagString: Untagged
@@ -3983,18 +3719,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1105815964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105815959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1190799804
 GameObject:
   m_ObjectHideFlags: 0
@@ -4007,7 +3731,6 @@ GameObject:
   - component: {fileID: 1190799807}
   - component: {fileID: 1190799806}
   - component: {fileID: 1190799808}
-  - component: {fileID: 1190799809}
   m_Layer: 5
   m_Name: United Kingdom
   m_TagString: Untagged
@@ -4117,18 +3840,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1190799809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190799804}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1192120471
 GameObject:
   m_ObjectHideFlags: 0
@@ -4141,7 +3852,6 @@ GameObject:
   - component: {fileID: 1192120474}
   - component: {fileID: 1192120473}
   - component: {fileID: 1192120475}
-  - component: {fileID: 1192120476}
   m_Layer: 5
   m_Name: Ukraine
   m_TagString: Untagged
@@ -4251,18 +3961,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1192120476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1192120471}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1248487941
 GameObject:
   m_ObjectHideFlags: 0
@@ -4275,7 +3973,6 @@ GameObject:
   - component: {fileID: 1248487944}
   - component: {fileID: 1248487943}
   - component: {fileID: 1248487945}
-  - component: {fileID: 1248487946}
   m_Layer: 5
   m_Name: Moldova
   m_TagString: Untagged
@@ -4385,18 +4082,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1248487946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248487941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1266322887
 GameObject:
   m_ObjectHideFlags: 0
@@ -4409,7 +4094,6 @@ GameObject:
   - component: {fileID: 1266322890}
   - component: {fileID: 1266322889}
   - component: {fileID: 1266322891}
-  - component: {fileID: 1266322892}
   m_Layer: 5
   m_Name: Macedonia
   m_TagString: Untagged
@@ -4519,18 +4203,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1266322892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266322887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1293811149
 GameObject:
   m_ObjectHideFlags: 0
@@ -4543,7 +4215,6 @@ GameObject:
   - component: {fileID: 1293811152}
   - component: {fileID: 1293811151}
   - component: {fileID: 1293811153}
-  - component: {fileID: 1293811154}
   m_Layer: 5
   m_Name: Belgium
   m_TagString: Untagged
@@ -4653,18 +4324,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1293811154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1293811149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1312950796
 GameObject:
   m_ObjectHideFlags: 0
@@ -4677,7 +4336,6 @@ GameObject:
   - component: {fileID: 1312950799}
   - component: {fileID: 1312950798}
   - component: {fileID: 1312950800}
-  - component: {fileID: 1312950801}
   m_Layer: 5
   m_Name: Romania
   m_TagString: Untagged
@@ -4787,18 +4445,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1312950801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312950796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1421114962
 GameObject:
   m_ObjectHideFlags: 0
@@ -4811,7 +4457,6 @@ GameObject:
   - component: {fileID: 1421114965}
   - component: {fileID: 1421114964}
   - component: {fileID: 1421114966}
-  - component: {fileID: 1421114967}
   m_Layer: 5
   m_Name: Iceland
   m_TagString: Untagged
@@ -4921,18 +4566,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1421114967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421114962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1527467179
 GameObject:
   m_ObjectHideFlags: 0
@@ -4945,7 +4578,6 @@ GameObject:
   - component: {fileID: 1527467182}
   - component: {fileID: 1527467181}
   - component: {fileID: 1527467183}
-  - component: {fileID: 1527467184}
   m_Layer: 5
   m_Name: Russia
   m_TagString: Untagged
@@ -5055,18 +4687,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1527467184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1527467179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1550375801
 GameObject:
   m_ObjectHideFlags: 0
@@ -5079,7 +4699,6 @@ GameObject:
   - component: {fileID: 1550375804}
   - component: {fileID: 1550375803}
   - component: {fileID: 1550375805}
-  - component: {fileID: 1550375806}
   m_Layer: 5
   m_Name: Germany
   m_TagString: Untagged
@@ -5189,18 +4808,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1550375806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550375801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1576044860
 GameObject:
   m_ObjectHideFlags: 0
@@ -5213,7 +4820,6 @@ GameObject:
   - component: {fileID: 1576044863}
   - component: {fileID: 1576044862}
   - component: {fileID: 1576044864}
-  - component: {fileID: 1576044865}
   m_Layer: 5
   m_Name: Serbia
   m_TagString: Untagged
@@ -5323,18 +4929,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1576044865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576044860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1588715910
 GameObject:
   m_ObjectHideFlags: 0
@@ -5347,7 +4941,6 @@ GameObject:
   - component: {fileID: 1588715913}
   - component: {fileID: 1588715912}
   - component: {fileID: 1588715914}
-  - component: {fileID: 1588715915}
   m_Layer: 5
   m_Name: Ireland
   m_TagString: Untagged
@@ -5457,18 +5050,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1588715915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588715910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1607856460
 GameObject:
   m_ObjectHideFlags: 0
@@ -5616,7 +5197,6 @@ GameObject:
   - component: {fileID: 1639746816}
   - component: {fileID: 1639746815}
   - component: {fileID: 1639746817}
-  - component: {fileID: 1639746818}
   m_Layer: 5
   m_Name: Malta
   m_TagString: Untagged
@@ -5726,18 +5306,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1639746818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1639746813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1643809711
 GameObject:
   m_ObjectHideFlags: 0
@@ -5834,7 +5402,6 @@ GameObject:
   - component: {fileID: 1656747725}
   - component: {fileID: 1656747724}
   - component: {fileID: 1656747726}
-  - component: {fileID: 1656747727}
   m_Layer: 5
   m_Name: Sweeden
   m_TagString: Untagged
@@ -5944,18 +5511,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1656747727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656747722}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1729385174
 GameObject:
   m_ObjectHideFlags: 0
@@ -5968,7 +5523,6 @@ GameObject:
   - component: {fileID: 1729385177}
   - component: {fileID: 1729385176}
   - component: {fileID: 1729385178}
-  - component: {fileID: 1729385179}
   m_Layer: 5
   m_Name: France
   m_TagString: Untagged
@@ -6078,18 +5632,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1729385179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1729385174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1788957712
 GameObject:
   m_ObjectHideFlags: 0
@@ -6102,7 +5644,6 @@ GameObject:
   - component: {fileID: 1788957715}
   - component: {fileID: 1788957714}
   - component: {fileID: 1788957716}
-  - component: {fileID: 1788957717}
   m_Layer: 5
   m_Name: Kosovo
   m_TagString: Untagged
@@ -6212,18 +5753,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1788957717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788957712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1804403499
 GameObject:
   m_ObjectHideFlags: 0
@@ -6236,7 +5765,6 @@ GameObject:
   - component: {fileID: 1804403502}
   - component: {fileID: 1804403501}
   - component: {fileID: 1804403503}
-  - component: {fileID: 1804403504}
   m_Layer: 5
   m_Name: Czech
   m_TagString: Untagged
@@ -6346,18 +5874,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1804403504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804403499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1896664689
 GameObject:
   m_ObjectHideFlags: 0
@@ -6370,7 +5886,6 @@ GameObject:
   - component: {fileID: 1896664692}
   - component: {fileID: 1896664691}
   - component: {fileID: 1896664693}
-  - component: {fileID: 1896664694}
   m_Layer: 5
   m_Name: San Marino
   m_TagString: Untagged
@@ -6480,18 +5995,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1896664694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896664689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1953943892
 GameObject:
   m_ObjectHideFlags: 0
@@ -6504,7 +6007,6 @@ GameObject:
   - component: {fileID: 1953943895}
   - component: {fileID: 1953943894}
   - component: {fileID: 1953943896}
-  - component: {fileID: 1953943897}
   m_Layer: 5
   m_Name: Italy
   m_TagString: Untagged
@@ -6614,18 +6116,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1953943897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1953943892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1980464526
 GameObject:
   m_ObjectHideFlags: 0
@@ -6638,7 +6128,6 @@ GameObject:
   - component: {fileID: 1980464529}
   - component: {fileID: 1980464528}
   - component: {fileID: 1980464530}
-  - component: {fileID: 1980464531}
   m_Layer: 5
   m_Name: Denmark
   m_TagString: Untagged
@@ -6748,18 +6237,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1980464531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1980464526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2005069921
 GameObject:
   m_ObjectHideFlags: 0
@@ -6772,7 +6249,6 @@ GameObject:
   - component: {fileID: 2005069924}
   - component: {fileID: 2005069923}
   - component: {fileID: 2005069925}
-  - component: {fileID: 2005069926}
   m_Layer: 5
   m_Name: Albania
   m_TagString: Untagged
@@ -6882,15 +6358,3 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2005069926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2005069921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 408f709547b7b6048a99b692912ee9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
