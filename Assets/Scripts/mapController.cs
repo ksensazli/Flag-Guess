@@ -1,11 +1,14 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using DG.Tweening;
 using UnityEngine.UI;
 
 public class mapController : MonoBehaviour
 {
     [SerializeField] private List<Button> _cities;
+    [SerializeField] private Button _restartBtn;
+    [SerializeField] private Button _mainMenuBtn;
     [SerializeField] private TMPro.TMP_Text _targetCity;
     [SerializeField] private TMPro.TMP_Text _clickedText;
     [SerializeField] private TMPro.TMP_Text _plateName;
@@ -33,6 +36,8 @@ public class mapController : MonoBehaviour
             _targetCity.fontSize = 36;
             _targetCity.text = "Level Completed!";
             _plateName.enabled = false;
+            _restartBtn.enabled = true;
+            _mainMenuBtn.enabled = true;
             return;
         }
         _targetCityIndex = _remainingCities[UnityEngine.Random.Range(0, _remainingCities.Count)];
@@ -42,7 +47,7 @@ public class mapController : MonoBehaviour
 
     private void onButtonClick(int index)
     {
-        _clickedText.text = (index + 1) + " " + _cities[index].transform.name;
+        _clickedText.text = _cities[index].transform.name;
         if(index == _targetCityIndex)
         {
             randomCitySelector();
