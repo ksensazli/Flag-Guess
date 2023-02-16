@@ -8,6 +8,11 @@ public class sceneLoader : MonoBehaviour
         SceneManager.LoadScene("LicensePlate", LoadSceneMode.Single);
     }
 
+    public void setMainMenu()
+    {
+        SceneManager.LoadScene("MainScene", LoadSceneMode.Single);
+    }
+
     public void setFlagEU_ez()
     {
         SceneManager.LoadScene("FlagEU_EZ", LoadSceneMode.Single);
