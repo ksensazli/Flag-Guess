@@ -33,11 +33,11 @@ public class flagController : MonoBehaviour
         }
         _targetFlagIndex = _remainingFlags[UnityEngine.Random.Range(0,_remainingFlags.Count)];
         _remainingFlags.Remove(_targetFlagIndex);
+        _targetFlag.text = _flags[_targetFlagIndex].transform.name;
     }
 
     private void onButtonClick(int index)
     {
-        _targetFlag.text = _flags[index].transform.name;
         if(index == _targetFlagIndex)
         {
             randomFlagSelector();
