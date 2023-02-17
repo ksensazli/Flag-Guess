@@ -12,4 +12,8 @@ It is under development.
 # Screenshots
 ![](https://github.com/ksensazli/Flag-Guess/blob/master/Screenshots/main.png) <br />
 ![](https://github.com/ksensazli/Flag-Guess/blob/master/Screenshots/licensePlate1.png) <br />
-![](https://github.com/ksensazli/Flag-Guess/blob/master/Screenshots/licensePlate2.png)
+![](https://github.com/ksensazli/Flag-Guess/blob/master/Screenshots/licensePlate2.png) <br />
+![](https://github.com/ksensazli/Flag-Guess/blob/master/Screenshots/flagEU1.png) <br />
+![](https://github.com/ksensazli/Flag-Guess/blob/master/Screenshots/flagAsia1.png) <br />
+![](https://github.com/ksensazli/Flag-Guess/blob/master/Screenshots/flagEU2.png)
+
