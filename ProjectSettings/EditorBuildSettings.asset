@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FlagEU.unity
     guid: 20b769716e667fc489c0cb540f7a386a
+  - enabled: 1
+    path: Assets/Scenes/FlagAsia.unity
+    guid: 7bfa996f43c342f4e941c9daa020ec32
   m_configObjects: {}
