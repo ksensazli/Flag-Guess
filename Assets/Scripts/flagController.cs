@@ -7,7 +7,10 @@ using UnityEngine.UI;
 public class flagController : MonoBehaviour
 {
     [SerializeField] private List<Button> _flags;
+    [SerializeField] private GameObject _restartBtn;
+    [SerializeField] private GameObject _mainMenuBtn;
     [SerializeField] private TMPro.TMP_Text _targetFlag;
+    [SerializeField] private TMPro.TMP_Text _flagsText;
     [SerializeField] private int _targetFlagIndex;
     private List<int> _remainingFlags = new List<int>();
 
@@ -29,6 +32,9 @@ public class flagController : MonoBehaviour
     {
         if(_remainingFlags.Count.Equals(0))
         {
+            _flagsText.text = "Level Completed!";
+            _restartBtn.SetActive(true);
+            _mainMenuBtn.SetActive(true);
             return;
         }
         _targetFlagIndex = _remainingFlags[UnityEngine.Random.Range(0,_remainingFlags.Count)];
@@ -41,12 +47,13 @@ public class flagController : MonoBehaviour
         if(index == _targetFlagIndex)
         {
             randomFlagSelector();
-            _flags[index].image.color = Color.green;
+            _flags[index].image.color = new Color(1f,1f,1f,0f);
             _flags[index].enabled = false;
         }
         else
         {
             _flags[index].image.color = Color.red;
+            DOVirtual.DelayedCall(2f, () => _flags[index].image.color = new Color(1f,1f,1f,1f));
         }
     }
 }
