@@ -10,6 +10,6 @@ Various third party plugins were used while developing the project. Some of thos
 It is under development.
 
 # Screenshots
-![](https://github.com/ksensazli/Flag-Guess/blob/master/Screenshots/mainScreen.png) <br />
+![](https://github.com/ksensazli/Flag-Guess/blob/master/Screenshots/main.png) <br />
 ![](https://github.com/ksensazli/Flag-Guess/blob/master/Screenshots/licensePlate1.png) <br />
 ![](https://github.com/ksensazli/Flag-Guess/blob/master/Screenshots/licensePlate2.png)
