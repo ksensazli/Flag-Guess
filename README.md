@@ -1,6 +1,6 @@
 # Flag & License Plate Guess Game 2D
 
-Escape City Run Game in Unity 3D
+![](https://github.com/ksensazli/Flag-Guess/blob/master/Assets/Sprites/icon.png) <br />
 
 Various third party plugins were used while developing the project. Some of those: <br />
 -DOTween <br />
