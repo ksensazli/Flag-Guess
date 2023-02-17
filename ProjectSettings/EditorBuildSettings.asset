@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/LicensePlate.unity
     guid: 3d1277c9238cb034a80baaa33a813040
   - enabled: 1
-    path: Assets/Scenes/FlagEU_EZ.unity
+    path: Assets/Scenes/FlagEU.unity
     guid: 20b769716e667fc489c0cb540f7a386a
   m_configObjects: {}

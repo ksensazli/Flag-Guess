@@ -15,11 +15,11 @@ public class sceneLoader : MonoBehaviour
 
     public void setFlagEU_ez()
     {
-        SceneManager.LoadScene("FlagEU_EZ", LoadSceneMode.Single);
+        SceneManager.LoadScene("FlagEU", LoadSceneMode.Single);
     }
 
-    public void setFlagEU_hd()
+    public void setFlagAsia()
     {
-        SceneManager.LoadScene("FlagEU_HD", LoadSceneMode.Single);
+        SceneManager.LoadScene("FlagAsia", LoadSceneMode.Single);
     }
 }
