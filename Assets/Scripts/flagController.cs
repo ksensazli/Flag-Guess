@@ -32,6 +32,8 @@ public class flagController : MonoBehaviour
     {
         if(_remainingFlags.Count.Equals(0))
         {
+            _targetFlag.enabled = false;
+            _flags[_targetFlagIndex].image.color = new Color(1f,1f,1f,0f);
             _flagsText.text = "Level Completed!";
             _restartBtn.SetActive(true);
             _mainMenuBtn.SetActive(true);
