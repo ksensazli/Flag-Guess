@@ -211,3 +211,15 @@ Received Import Request.
   path: Assets/Scripts/flagRandomizer.cs
   artifactKey: Guid(2c318fa2f90eb5343b3859846259d1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/flagRandomizer.cs using Guid(2c318fa2f90eb5343b3859846259d1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed88f4bd458ed8e43b2355e0f4f94f92') in 0.029039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 667.438825 seconds.
+  path: Assets/Scripts/alphaButton.cs
+  artifactKey: Guid(408f709547b7b6048a99b692912ee9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/alphaButton.cs using Guid(408f709547b7b6048a99b692912ee9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbde16dbd4607b98c6aec01fe1bbe23a') in 0.009460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.770311 seconds.
+  path: Assets/Scenes/EUMap.unity
+  artifactKey: Guid(7e5de0a42b8a9934fab309d57a63d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EUMap.unity using Guid(7e5de0a42b8a9934fab309d57a63d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cfb2007a964f39982efd4a544d7673e') in 0.010780 seconds 
